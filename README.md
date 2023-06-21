@@ -30,22 +30,6 @@ O conceito do projeto é a integração com o [back-end](https://github.com/Luiz
 - Adição de novos produtos vinculados às categorias existentes.
 - Visualização dos pedidos feitos pelos garçons, incluindo mesa do cliente e itens selecionados.
 
-## Contribuição
-
-Contribuições são sempre bem-vindas! Se você quiser colaborar com o projeto, siga as etapas abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma nova branch com a sua contribuição: `git checkout -b minha-contribuicao`.
-3. Faça as alterações desejadas e faça commits explicativos: `git commit -m "Minha contribuição: Descrição das alterações"`.
-4. Envie suas alterações para o seu repositório fork: `git push origin minha-contribuicao`.
-5. Abra um pull request no repositório original, descrevendo suas alterações.
-
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
-
-## Contato
-
-Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através do e-mail [seu-email@example.com](mailto:seu-email@example.com).
-
-Espero que essas alterações tornem o seu README mais claro e completo. Sinta-se à vontade para ajustar qualquer parte de acordo com as suas necessidades.
