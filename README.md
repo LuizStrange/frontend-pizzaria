@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Pizzaria
 
-## Getting Started
+O conceito do projeto é a integração com o [back-end](https://github.com/LuizStrange/BackEnd-Pizzaria). O front-end é responsável pela cozinha, onde é possível criar novas categorias de produtos ou adicionar novos produtos e vinculá-los às categorias existentes. Além disso, o front-end permite ler os novos pedidos feitos pelos garçons, incluindo a mesa do cliente e os itens selecionados pelo cliente no menu.
 
-First, run the development server:
+## Tecnologias utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- React.js
+- Next.js
+- React-Modal
+- Axios
+- SASS
+- React-toastify
+- Nookies
+- jwt-decode
+- TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como executar o projeto
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório do back-end em [BackEnd-Pizzaria](https://github.com/LuizStrange/BackEnd-Pizzaria).
+2. Siga as instruções para configurar e executar o back-end.
+3. Clone este repositório.
+4. Abra o terminal e navegue até a pasta raiz do projeto.
+5. Instale as dependências usando o comando `yarn add` ou `npm install`.
+6. Execute o projeto com o comando `yarn dev` ou `npm run dev`.
+7. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Funcionalidades
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Criação de categorias de produtos.
+- Adição de novos produtos vinculados às categorias existentes.
+- Visualização dos pedidos feitos pelos garçons, incluindo mesa do cliente e itens selecionados.
 
-## Learn More
+## Contribuição
 
-To learn more about Next.js, take a look at the following resources:
+Contribuições são sempre bem-vindas! Se você quiser colaborar com o projeto, siga as etapas abaixo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Faça um fork do repositório.
+2. Crie uma nova branch com a sua contribuição: `git checkout -b minha-contribuicao`.
+3. Faça as alterações desejadas e faça commits explicativos: `git commit -m "Minha contribuição: Descrição das alterações"`.
+4. Envie suas alterações para o seu repositório fork: `git push origin minha-contribuicao`.
+5. Abra um pull request no repositório original, descrevendo suas alterações.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contato
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através do e-mail [seu-email@example.com](mailto:seu-email@example.com).
+
+Espero que essas alterações tornem o seu README mais claro e completo. Sinta-se à vontade para ajustar qualquer parte de acordo com as suas necessidades.
